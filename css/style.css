@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Reduced CSS */
+.pointer:hover{
+    cursor: pointer;
+    
+}
+
+.navbar{
+    width: 100vw;
+    height: 70px; 
+    background-color: #3498db ;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dotted #05244f;
+    position: fixed;
+  }
+
+ .leftSidebar{
+   display: flex;
+   align-items: center;
+   
+ }
+
+.logo{ 
+    margin: 0px  18px auto 16px;
+    width: 70px;
+    height: 70px;
+    transform: scale(1.8); 
+    background: url(images/flogo.png);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+ }
+
+ .logoDes{ 
+    /* color: #000; */
+    color: #ffff;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 18px;
+    font-weight: 400; 
+ }
+ .menuBar{
+    display: flex;
+    align-items: center;
+ }
+
+ .menuBar ul{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-right: 60px;
+  }
+
+ .menuBar ul li{
+    list-style-type: none;
+    padding-right: 20px;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif,'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    
+ }
+ li a{
+    color:#fff; 
+    text-decoration: none;
+ }
+
+ .homeImgColl{
+   display: flex;
+
+
+ }
+
+ .homePic{  
+    width:100vw;
+    height: 90vh; 
+    background: url(images/mvs1.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+ }
+ 
+ .pic2{
+    width: 20vw;
+ }
+
+/* footer */
+
+.footer{ 
+    background-color: #f0f0f0 ;
+    padding: 50px;
+    color: #05244f ;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.community{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+}
+.community a i{
+    padding-right: 10px;
+    
+    font-size: 1rem;
+}
+
+ .community a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #05244f ;
+    margin-top: 25px;
+ }
+
+  
+
+.contact{
+   display: flex;
+   flex-direction: column;
+   color: #05244f;
+}
+.contact label{
+   font-size: 1.5rem; 
+   margin-top: 15px;
+
+}
+
+.contact input, textarea{
+   border-top: none;
+   border-right: none;
+   border-left: none;
+   border-bottom: 1px solid #000;
+   height: 30px;
+   background-color: inherit;
+   outline: none;
+   font-size: 1rem;
+   letter-spacing: 1px;
+   margin-top: 25px;
+   
+}
+
+
+.contact .submit{ 
+   margin-top: 14px;
+   font-size: 1.2rem; 
+    width: 100px;
+    height:  40px;
+    color: #a6180d;
+    border-radius: 8px;
+    border-top: 1px solid #000;
+}
+.submit:hover{
+   background-color: #000;
+   color: #fff; 
+   border-top: 1px solid #05244f;
+
+}
+
+.topmargin{
+   margin-bottom: 10px;
+}
